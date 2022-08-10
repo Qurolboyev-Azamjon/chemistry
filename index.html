@@ -1,12 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />-->
 </head>
+
 <body>
-    
+    <div class="navbar__hide">
+        <div class="navbar__hide__ul">
+        <div class="navbar__logo flex__jcc__aic">
+            <div> 
+                Brit<span>lex</span>
+            </div>
+             <div>                
+                <i class="fa-solid fa-xmark" onclick="myXmark()" id="xmark" ></i>
+             </div>
+            </div>
+        <hr class="navbar__hide-hr">
+            <ul class="navbar__hide__li">
+                <li>
+                    <a href="#home" onclick="myXmark()">Home</a> 
+                </li>
+                <li>
+                    <a href="#skills" onclick="myXmark()">Skills</a> 
+                </li>
+                <li>
+                    <a href="#about" onclick="myXmark()">About Us</a> 
+                </li>
+                <li>
+                    <a href="#pricing" onclick="myXmark()">Pricing</a> 
+                </li>
+                <li>
+                    <a href="#contact" onclick="myXmark()">Contacts</a> 
+                </li>
+            </ul>
+            <div class="navbar__hide__btn" onclick="myXmark()">Lets Talk</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar__logo">Brit<span>lex</span></div>
+            <div class="navbar__ul">
+                <ul class="navbar__li">
+                    <li>
+                        <a href="#home">Home</a> 
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a> 
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a> 
+                    </li>
+                    <li>
+                        <a href="#pricing">Pricing</a> 
+                    </li>
+                    <li>
+                        <a href="#contact">Contacts</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__icon" >
+                <i class="fa-solid fa-bars"  onclick="myBars()" id="bars"></i>
+            </div>
+            <div class="navbar__btn">Lets Talk</div>
+        </div>
+        <div class="getlearning" id="home">
+            <div class="getstart">
+                <div class="getstart__learning">
+                    <div class="getlearning__h1">Learn Any Foreign Language</div>
+                    <div class="getlearning__img">
+                        <img class="getlearning__img-img" src="assets/img/group.svg" alt="">
+                    </div>
+                </div>
+                <p>With our teachers who write a program for
+                    each student, you will be able to make your
+                    first sketch after the first.</p>
+                <button class="getstart__btn">Get started</button>
+            </div>
+            <div class="learning__img">
+                <img class="learning__img-img" src="assets/img/learning.svg" alt="">
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <div class="skills__title">
+                Skills
+            </div>
+            <div class="skills__info">
+                <div class="skills__flex">
+                    <div class="info__speaking">
+                        <div class="center">
+                            <img src="assets/img/speaking.svg" alt="">
+                        </div>
+                        <h1>Speaking</h1>
+                        <p>Improve your English skills and confidence.
+                            Live classes and interactive lessons online.
+                            20% extra free for</p>
+                        <button class="getstart__btn">Learn more</button>
+                    </div>
+                    <div class="info__writing">
+                        <div class="center">
+                            <img src="assets/img/writing.svg" alt="">
+                        </div>
+                        <h1>Writing</h1>
+                        <p>One of the most important and extensive
+                            areas of natural science, the science that
+                            studies substances </p>
+                        <button class="getstart__btn">Learn more</button>
+                    </div>
+                </div>
+                <div class="skills__flex">
+                    <div class="info__reading">
+                        <div class="center">
+                            <img src="assets/img/reading.svg" alt="">
+                        </div>
+                        <h1>Reading</h1>
+                        <p>Perception and response actions of the user
+                            resulting from the use and/or upcoming use
+                            of the product</p>
+                        <button class="getstart__btn">Learn more</button>
+                    </div>
+                    <div class="info__listening">
+                        <div class="info__listening-relative">
+                            <div class="center info__listening-img">
+                                <img src="assets/img/listening.svg" alt="">
+                            </div>
+                            <div class="info__listening-text">
+                                <h1>Listening</h1>
+                                <p>Here you can find activities to practise
+                                    your listening skills. Listening will help you
+                                    to improve your understanding </p>
+                                <button class="getstart__btn">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about__us">
+                <div class="about__h1">About Us</div>
+                <p>The model offers a framework for discussing problems related to the user's experience, as well as
+                    possible ways and means of solving them. Application development begins at the top level (strategy),
+                    where the future software
+                </p>
+                <div class="about__total">
+                    <div>
+                        <span class="about__total__h1">800</span>
+                        <p>Pupils</p>
+                    </div>
+                    <div>
+                        <span class="about__total__h1">18</span>
+                        <p>Teachers</p>
+                    </div>
+                    <div>
+                        <span class="about__total__h1">6</span>
+                        <p>Foreign languages</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__img">
+                <img class="about__img-img" src="assets/img/about-us-img.svg" alt="">
+            </div>
+            <div class="about__h2">About Us</div>
+        </div>
+        <div class="pricing" id="pricing">
+            <div class="pricing__title">
+                <h2>Pricing</h2>
+            </div>
+            <div class="pricing__flex">
+                <div class="pricing__self">
+                    <div class="center">
+                        <img src="assets/img/pricing-self.svg" alt="">
+                    </div>
+                    <h1>Self-study online course</h1>
+                    <p>Start learning English online in live classes
+                        with qualified EC teachers Start learning English online in live classes
+                    </p>
+                    <button class="pricing__btn"> <span>£5.99</span> per month</button>
+                </div>
+                <div class="pricing__self">
+                    <div class="center">
+                        <img src="assets/img/pricing-live.svg" alt="">
+                    </div>
+                    <h1>Live online classes</h1>
+                    <p>Start learning English online in live classes
+                        with qualified EC teachers Start learning English online in live classes</p>
+                    <button class="pricing__btn"> <span> £12.99</span> per month</button>
+                </div>
+                <div class="pricing__self">
+                    <div class="center">
+                        <img src="assets/img/pricing-personal.svg" alt="">
+                    </div>
+                    <h1>Personal Tuition</h1>
+                    <p>Start learning English online in live classes
+                        with qualified EC teachers Start learning English online in live classes</p>
+                    <button class="pricing__btn"> <span> £20.99</span> per month</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact__us">
+                <div class="contact__h1">Contact Us</div>
+                <p>Discover your current English level by taking our free online English test.Sign up to our newsletter
+                    for learning tips and free resources
+                </p>
+                <div class="contact__total">
+                    <input type="text" placeholder="Enter Your E-mail">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+            <div class="contact__img">
+                <img class="contact__img-img" src="assets/img/contact-us.svg" alt="">
+            </div>
+            <div class="contact__h2">Contact Us</div>
+        </div>
+        <hr>
+        <div class="footer">
+            <div class="footer__britlex">Brit<span>lex</span></div>
+            <div class="footer__terms">Terms and Conditions • Privacy Policy • Cookie Policy</div>
+        </div>
+    </div>
+
+    <script src="assets/main.js">
+
+    </script>
 </body>
+
 </html>
